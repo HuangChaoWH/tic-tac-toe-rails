@@ -1,0 +1,253 @@
+.board_login {
+    background: rgba(187, 173, 160, 0.73);
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 603px;
+    height: 624px;
+
+    background: rgba(187, 173, 160, 0.73);
+    border-radius: 6px;
+
+}
+
+.login {
+
+    position: absolute;
+    top: 76px;
+    left: 78px;
+
+    background: rgba(187, 173, 160, 0.73);
+}
+
+.player1 {
+    position: absolute;
+    height: 33px;
+    left: 12%;
+    right: 59.74%;
+    top: calc(50% - 33px/2 - 193px);
+
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 2.8px;
+
+    color: #776E65;
+}
+
+.player2 {
+    position: absolute;
+    height: 33px;
+    left: 12%;
+    right: 59.74%;
+    top: calc(50% - 33px/2 - 64px);
+
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 2.8px;
+
+    color: #776E65;
+}
+
+.player1_input {
+    position: absolute;
+    left: 15.83%;
+    right: 13.67%;
+    top: 22.95%;
+    bottom: 67.42%;
+
+    background: #F8F8F8;
+    border: 4px solid #979797;
+    border-radius: 10px;
+}
+
+.player1_input_text {
+    position: absolute;
+    height: 33px;
+    left: 18.67%;
+    right: 56.67%;
+    top: calc(50% - 33px/2 - 142px);
+
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2.8px;
+
+    background: #F8F8F8;
+    color: #776E65;
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.player2_input {
+    position: absolute;
+    left: 15.83%;
+    right: 13.67%;
+    top: 43.66%;
+    bottom: 46.71%;
+
+    background: #F8F8F8;
+    mix-blend-mode: normal;
+    border: 4px solid #979797;
+    border-radius: 10px;
+}
+
+.player2_input_text {
+
+    position: absolute;
+    height: 33px;
+    left: 18.5%;
+    right: 49%;
+    top: calc(50% - 33px/2 - 11px);
+
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2.8px;
+
+    background: #F8F8F8;
+    color: #776E65;
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.size_board {
+    position: absolute;
+    height: 33px;
+    left: 15.83%;
+    right: 52.67%;
+    top: calc(50% - 33px/2 + 82px);
+
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2.8px;
+
+    color: #776E65;
+}
+
+.size_board_input {
+    position: absolute;
+    left: 47.33%;
+    right: 13.67%;
+    top: 58.91%;
+    bottom: 31.46%;
+
+    background: #F8F8F8;
+    border: 4px solid #979797;
+    border-radius: 10px;
+}
+
+.size_board_input_text {
+    position: absolute;
+    height: 33x;
+    left: 64.67%;
+    width: 48px;
+    top: calc(50% - 48px/2 + 87.5px);
+
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 2.8px;
+
+    color: #776E65;
+    background: #F8F8F8;
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+
+}
+
+.new_game_group {
+    position: absolute;
+    left: 23.67%;
+    right: 23.72%;
+    top: 74.32%;
+    bottom: 16.21%;
+}
+
+.new_game_button {
+    position: absolute;
+    height: 100%;
+    top: 0%;
+    width: 100%;
+
+    background: #D8D8D8;
+    border: 4px solid #979797;
+    border-radius: 30px;
+
+    font-family: HelveticaNeue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 3.4px;
+    
+    color: #776E65;
+}
+
+/* ---- tictactoe ---- */
+
+.board {
+    background: #FAF8EF;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 603px;
+    height: 624px;
+}
+
+.tictactoe {
+    position: absolute;
+    top: 76px;
+    left: 68px;
+
+    border-radius: 6px;
+    background: #BBADA0;
+}
+
+.cell {
+    position: absolute;
+    
+    background: rgba(238, 228, 218, 0.35);
+    width: 134px;
+    height: 134px;
+    border-radius: 2px;
+
+    color: rgba(255, 255, 255, 0);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    line-height: 134px;
+}
