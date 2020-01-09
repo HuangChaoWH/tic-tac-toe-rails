@@ -77,7 +77,7 @@ function init() {
     size_board_input_text.setAttribute("type", "number" );
     size_board_input_text.setAttribute("value", "3" );
     size_board_input_text.setAttribute("min", "3" );
-    size_board_input_text.setAttribute("max", "5" );
+    size_board_input_text.setAttribute("max", "7" );
     
     // new game group
     var new_game_group = document.createElement('div');
@@ -106,13 +106,18 @@ function login_submit() {
     var a = document.getElementById("player1_input_text").value;
     var b = document.getElementById("player2_input_text").value;
     if (a == null || a == "", b == null || b == "") {
-        alert("Please Fill All Required Field");
+        alert("Please fill players name");
         return false;
     }
-  
-    board_login.style.display = "none";
+
     N_SIZE = document.getElementById("size_board_id").value;
 
+    if ( N_SIZE < 3 || N_SIZE > 7 ) {
+        alert("Size should between 3 and 7");
+        return false;
+    }
+
+    board_login.style.display = "none";
     tictactoe_init();
     startNewGame();
 }
