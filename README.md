@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is Tic Tac Toe game implmented in Ruby on Rails 6.
 
-Things you may want to cover:
+Developed on Ubuntu 18
 
-* Ruby version
+```bash
+$ ruby -v
+ruby 2.6.5p114 (2019-10-01 revision 67812) [x86_64-linux]
 
-* System dependencies
+$ rails -v
+Rails 6.0.2.1
 
-* Configuration
+$ uname -a
+Linux xxxxxx 4.15.0-72-generic #81-Ubuntu SMP xxxxxx x86_64 x86_64 x86_64 GNU/Linux
 
-* Database creation
+```
 
-* Database initialization
+The game support board size from 3 to 7, can be larger.
 
-* How to run the test suite
+I have delpoyed it on Heroku. Try it at:
 
-* Services (job queues, cache servers, search engines, etc.)
+https://stormy-escarpment-72076.herokuapp.com/
 
-* Deployment instructions
 
-* ...
