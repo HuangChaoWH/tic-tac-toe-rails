@@ -23,3 +23,16 @@ I have delpoyed it on Heroku. Try it at:
 https://stormy-escarpment-72076.herokuapp.com/
 
 
+For fresh install, after cloning repository, run:
+
+```
+yarn install
+bundle install
+rails server -b 0.0.0.0
+```
+
+Use browser with URL 
+
+```
+http://127.0.0.1:3000
+```
